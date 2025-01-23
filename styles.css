@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.text-white{
+    color: white;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.navbar{
+    padding: 20px;
+    background-color: #65558F;
+}
+.navbar ul{
+    gap: 20px;
+    list-style: none;
+}
+.lang-btn{
+    background-color: #65558F;
+    border: none;
+    gap: 5px;
+}
