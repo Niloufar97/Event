@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  padding-top: 0.1px;
+}
 .d-flex{
     display: flex;
+}
+.flex-col{
+    flex-direction: column;
 }
 .text-white{
     color: white;
@@ -21,13 +27,50 @@
 .navbar{
     padding: 20px;
     background-color: #65558F;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
 }
 .navbar ul{
     gap: 20px;
     list-style: none;
 }
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
 .lang-btn{
     background-color: #65558F;
     border: none;
     gap: 5px;
+}
+.about-box{
+    margin: 10rem 5rem;
+    background-color: #E8DEF8;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.image-container{
+    width: 40%;
+}
+.image-container img{
+    width: 100%;
+}
+.about-text{
+    width: 60%;
+    gap: 1rem;
+
+}
+.about-text h2{
+    color: #21005D;
+    font-size: 40px;
+    font-weight: 600;
+}
+.about-text p{
+    flex: 1;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300;
 }
