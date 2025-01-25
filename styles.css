@@ -150,3 +150,20 @@ body{
     padding: 10px;
     margin: 10px 0;
 }
+footer{
+    background-color: #65558F;
+    padding: 30px;
+    width: 100%;
+}
+.footer-text{
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.footer-text ul{
+    list-style: none;
+    line-height: 2.5rem;
+}
+footer p{
+    text-align: center;
+}
